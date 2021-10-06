@@ -1,25 +1,3 @@
-'''
-##  spacex_dash_app.py
-##  Coursera - DS0321EN
-##  Week 3
-##  Section 3 - Hands-on Lab: Build an Interactive Dashboard with Ploty Dash
-
-wget "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/spacex_launch_dash.csv"
-wget "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/labs/module_3/spacex_dash_app.py"
-
-TASK 1 - Add a Launch Site Drop-down Input Component
-TASK 2 - Add a callback function to render success-pie-chart based on selected site dropdown
-TASK 3 - 
-TASK 4 - 
-
-History
-20210930    JAK     TASK 4 Completed - note: added table to display the dataframe currently used for the scatter plot
-20210930    JAK     TASK 3 Completed - note: changed step to 100 to be able to see min/max better.
-20210930    JAK     TASK 2 Completed - note: corrected get_pie_chart() and callbacktest()
-20210929    JAK     TASK 1 Completed - note: figured out how to use a dataframe generated 
-                    from unique values in the source dataset.
-'''
-
 # Import required libraries
 import pandas as pd
 import dash
